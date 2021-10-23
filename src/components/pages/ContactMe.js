@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-// import { validateEmail } from './utils/helpers';
+import { validateEmail } from './utils/helpers';
 import '../../../public/style.css';
 
 //
@@ -39,7 +39,7 @@ function Contact() {
 
     
     if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email invalid');
+      setErrorMessage('This email address is invalid');
       
       return;
     }
@@ -61,7 +61,7 @@ function Contact() {
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="Email"
+          placeholder="Please enter email address"
         />
 
 
@@ -70,7 +70,7 @@ function Contact() {
           name="userName"
           onChange={handleInputChange}
           type="text"
-          placeholder="Name"
+          placeholder="Enter your name"
         />
 
 
@@ -79,7 +79,7 @@ function Contact() {
           name="comment"
           onChange={handleInputChange}
           type="text"
-          placeholder="Please leave a quick question or comment!"
+          placeholder="Please leave a question or comment!"
         />
 
 
