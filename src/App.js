@@ -1,10 +1,14 @@
 import React from "react";
-import Display from "./components/pages/Display";
+
+import PortfolioContainer from "./components/PortfolioContainer";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function App() {
-  return <Display />;
-}
+
+
+
+const App = () => <PortfolioContainer />;
+
+
 
 export default App;
