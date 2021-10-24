@@ -1,19 +1,19 @@
 import React from 'react';
-import img1 from 'C:/Users/tedal/Desktop/Bootcamp/react-portfolio/public/shield-logo.png'
-// import img2 from '../..
-import img3 from '../../images/pwscreen.png'
+// import Img1 from '../../images/shield-logo';
+import Img2 from '../../images/calendont.JPG';
+import Img3 from '../../images/globe_flag.png';
 
 export default function Portfolio() {
   return (
     <section id="work" class="work">
     <h2>Examples of Previous Work:</h2>
-    {/* <br> */}
+    <br/>
 
     <div class="row">
         <div class="col-sm-4">
             <div class="card" style="width: 18rem;">
-                <img src={img1} class="card-img-top" alt="SHIELD logo" height="200px"
-                    width="200px"/>
+                {/* <img src={Img1} class="card-img-top" alt="SHIELD logo" height="200px"
+                    width="200px"/> */}
                 <div class="card-body">
                     <h5 class="card-title">S.H.I.E.L.D. Database</h5>
                     <p class="card-text">Displays information on searched comic book characters using data from
@@ -30,10 +30,10 @@ export default function Portfolio() {
                 </div>
             </div>
         </div>
-        {/* <br> */}
+        <br/>
         <div class="col-sm-4">
             <div class="card" style="width: 18rem;">
-                <img src={img2} class="card-img-top" alt="CalenDont" height="200px" width="200px"></img>
+                <img src={Img2} class="card-img-top" alt="CalenDont" height="200px" width="200px"></img>
                 <div class="card-body">
                     <h5 class="card-title">CalenDon't</h5>
                     <p class="card-text">The Antisocial Social Planner</p>
@@ -47,10 +47,10 @@ export default function Portfolio() {
                 </div>
             </div>
         </div>
-        {/* <br> */}
+        <br/>
         <div class="col-sm-4">
             <div class="card" style="width: 18rem;">
-                <img src={img3} class="card-img-top" alt="flags and globe" height="200px"
+                <img src={Img3} class="card-img-top" alt="flags and globe" height="200px"
                     width="200px"/>
                 <div class="card-body">
                     <h5 class="card-title">Flag Quiz</h5>
@@ -69,7 +69,7 @@ export default function Portfolio() {
     </div>
 
 
-    {/* <br> */}
+    <br/>
     <div class="row">
 
 
