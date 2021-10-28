@@ -3,7 +3,7 @@ import React from 'react';
 import Img2 from '../../images/calendont.JPG';
 import Img3 from '../../images/globe_flag.png';
 
-export default function Portfolio() {
+export default function Projects() {
   return (
     <section id="work" class="work">
     <h2>Examples of Previous Work:</h2>
@@ -80,9 +80,9 @@ export default function Portfolio() {
     </div>
 
 
-    {/* <br> */}
+    <br/>
     <div class="row">
-        {/* <br> */}
+        <br/>
         <div class="col-sm-4">
             <div class="card" style="width: 18rem;">
                 <img src="./assets/digital-marketing-meeting.jpg" class="card-img-top" alt="Horiseon Refactor"
@@ -123,7 +123,7 @@ export default function Portfolio() {
                 </div>
             </div>
         </div>
-        {/* <br> */}
+        <br/>
         <div class="col-sm-4">
             <div class="card" style="width: 18rem;">
                 <img src="./assets/comingsoon2.jpg" class="card-img-top" alt="Horiseon Refactor" height="200px"
@@ -144,7 +144,7 @@ export default function Portfolio() {
     </div>
 
 
-    {/* <br> */}
+    <br/>
 
     <div class="work-placeholder card col-sm-4">
         <img src="./assets/comingsoon4.jpg" alt="check back later!" height="100px" width="200px"/>
