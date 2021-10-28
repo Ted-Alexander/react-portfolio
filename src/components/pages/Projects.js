@@ -5,64 +5,64 @@ import Img3 from '../../images/globe_flag.png';
 
 export default function Projects() {
   return (
-    <section id="work" class="work">
+    <section id="work" className="work">
     <h2>Examples of Previous Work:</h2>
     <br/>
 
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
-                {/* <img src={Img1} class="card-img-top" alt="SHIELD logo" height="200px"
+    <div className="row">
+        <div className="col-sm-4">
+            <div className="card" style="width: 18rem;">
+                {/* <img src={Img1} className="card-img-top" alt="SHIELD logo" height="200px"
                     width="200px"/> */}
-                <div class="card-body">
-                    <h5 class="card-title">S.H.I.E.L.D. Database</h5>
-                    <p class="card-text">Displays information on searched comic book characters using data from
+                <div className="card-body">
+                    <h5 className="card-title">S.H.I.E.L.D. Database</h5>
+                    <p className="card-text">Displays information on searched comic book characters using data from
                         Superhero API</p>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Requires CORS Anywhere access to use.</li>
+                <ul className="list-group list-group-flush">
+                    <li className="list-group-item">Requires CORS Anywhere access to use.</li>
 
                 </ul>
-                <div class="card-body">
-                    <a href="https://endlessashley.github.io/Shield-ID/" class="card-link">Link to the app</a>
-                    <a href="https://github.com/endlessashley/Shield-ID" class="card-link">GitHub Link</a>
-                    <a href="https://cors-anywhere.herokuapp.com/corsdemo" class="card-link">CORS Anywhere</a>
+                <div className="card-body">
+                    <a href="https://endlessashley.github.io/Shield-ID/" className="card-link">Link to the app</a>
+                    <a href="https://github.com/endlessashley/Shield-ID" className="card-link">GitHub Link</a>
+                    <a href="https://cors-anywhere.herokuapp.com/corsdemo" className="card-link">CORS Anywhere</a>
                 </div>
             </div>
         </div>
         <br/>
-        <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
-                <img src={Img2} class="card-img-top" alt="CalenDont" height="200px" width="200px"></img>
-                <div class="card-body">
-                    <h5 class="card-title">CalenDon't</h5>
-                    <p class="card-text">The Antisocial Social Planner</p>
+        <div className="col-sm-4">
+            <div className="card" style="width: 18rem;">
+                <img src={Img2} className="card-img-top" alt="CalenDont" height="200px" width="200px"></img>
+                <div className="card-body">
+                    <h5 className="card-title">CalenDon't</h5>
+                    <p className="card-text">The Antisocial Social Planner</p>
                 </div>
-                <ul class="list-group list-group-flush">
+                <ul className="list-group list-group-flush">
 
                 </ul>
-                <div class="card-body">
-                    <a href="https://pacific-badlands-48977.herokuapp.com/" class="card-link">Link to the app</a>
-                    <a href="https://github.com/rjr2/CalenDont" class="card-link">GitHub Link</a>
+                <div className="card-body">
+                    <a href="https://pacific-badlands-48977.herokuapp.com/" className="card-link">Link to the app</a>
+                    <a href="https://github.com/rjr2/CalenDont" className="card-link">GitHub Link</a>
                 </div>
             </div>
         </div>
         <br/>
-        <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
-                <img src={Img3} class="card-img-top" alt="flags and globe" height="200px"
+        <div className="col-sm-4">
+            <div className="card" style="width: 18rem;">
+                <img src={Img3} className="card-img-top" alt="flags and globe" height="200px"
                     width="200px"/>
-                <div class="card-body">
-                    <h5 class="card-title">Flag Quiz</h5>
-                    <p class="card-text">A timed quiz on the flags of various nations</p>
+                <div className="card-body">
+                    <h5 className="card-title">Flag Quiz</h5>
+                    <p className="card-text">A timed quiz on the flags of various nations</p>
                 </div>
-                <ul class="list-group list-group-flush">
+                <ul className="list-group list-group-flush">
 
 
                 </ul>
-                <div class="card-body">
-                    <a href="https://ted-alexander.github.io/quiz/" class="card-link">Link to the app</a>
-                    <a href="https://github.com/ted-alexander/quiz" class="card-link">GitHub Link</a>
+                <div className="card-body">
+                    <a href="https://ted-alexander.github.io/quiz/" className="card-link">Link to the app</a>
+                    <a href="https://github.com/ted-alexander/quiz" className="card-link">GitHub Link</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ export default function Projects() {
 
 
     <br/>
-    <div class="row">
+    <div className="row">
 
 
 

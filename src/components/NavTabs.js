@@ -4,17 +4,17 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#home"
-          onClick={() => handlePageChange('AboutMe')}
+          onClick={() => handlePageChange('Home')}
         
 
-          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          AboutMe
+          Home
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#about"
