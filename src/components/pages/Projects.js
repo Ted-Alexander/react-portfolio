@@ -1,7 +1,11 @@
 import React from 'react';
-// import Img1 from '../../images/shield-logo';
+import Img1 from '../../images/shield-logo.png';
 import Img2 from '../../images/calendont.JPG';
 import Img3 from '../../images/globe_flag.png';
+import Img4 from '../../images/03.png';
+import Img5 from '../../images/workday.PNG';
+import Img6 from '../../images/weather.png';
+import Img7 from '../../images/2.jpg';
 
 export default function Projects() {
   return (
@@ -11,9 +15,9 @@ export default function Projects() {
 
     <div className="row">
         <div className="col-sm-4">
-            <div className="card" style="width: 18rem;">
-                {/* <img src={Img1} className="card-img-top" alt="SHIELD logo" height="200px"
-                    width="200px"/> */}
+            <div className="card" style={{width: '18rem'}}>
+                <img src={Img1} className="card-img-top" alt="SHIELD logo" height="200px"
+                    width="200px"/>
                 <div className="card-body">
                     <h5 className="card-title">S.H.I.E.L.D. Database</h5>
                     <p className="card-text">Displays information on searched comic book characters using data from
@@ -32,7 +36,7 @@ export default function Projects() {
         </div>
         <br/>
         <div className="col-sm-4">
-            <div className="card" style="width: 18rem;">
+            <div className="card" style={{width: '18rem'}}>
                 <img src={Img2} className="card-img-top" alt="CalenDont" height="200px" width="200px"></img>
                 <div className="card-body">
                     <h5 className="card-title">CalenDon't</h5>
@@ -49,7 +53,7 @@ export default function Projects() {
         </div>
         <br/>
         <div className="col-sm-4">
-            <div className="card" style="width: 18rem;">
+            <div className="card" style={{width: '18rem'}}>
                 <img src={Img3} className="card-img-top" alt="flags and globe" height="200px"
                     width="200px"/>
                 <div className="card-body">
@@ -81,24 +85,24 @@ export default function Projects() {
 
 
     <br/>
-    <div class="row">
+    <div className="row">
         <br/>
-        <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/digital-marketing-meeting.jpg" class="card-img-top" alt="Horiseon Refactor"
+        <div className="col-sm-4">
+            <div className="card" style={{width: '18rem'}}>
+                <img src={Img4} className="card-img-top" alt="password generator"
                     height="200px" width="400px"/>
-                <div class="card-body">
-                    <h5 class="card-title">Password Generator</h5>
-                    <p class="card-text">Creates a randomized password based on given parameters.</p>
+                <div className="card-body">
+                    <h5 className="card-title">Password Generator</h5>
+                    <p className="card-text">Creates a randomized password based on given parameters.</p>
                 </div>
-                <ul class="list-group list-group-flush">
+                <ul className="list-group list-group-flush">
 
 
                 </ul>
-                <div class="card-body">
-                    <a href="https://ted-alexander.github.io/password-generator/" class="card-link">Link to the
+                <div className="card-body">
+                    <a href="https://ted-alexander.github.io/password-generator/" className="card-link">Link to the
                         app</a>
-                    <a href="https://github.com/ted-alexander/password-generator" class="card-link">GitHub Link</a>
+                    <a href="https://github.com/ted-alexander/password-generator" className="card-link">GitHub Link</a>
 
                 </div>
             </div>
@@ -106,38 +110,37 @@ export default function Projects() {
 
 
 
-        <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/workday.PNG" class="card-img-top" alt="listmaker" height="200px" width="200px"/>
-                <div class="card-body">
-                    <h5 class="card-title">Workday Scheduler</h5>
-                    <p class="card-text">A listmaker that marks passed hours in real time.</p>
+        <div className="col-sm-4">
+            <div className="card" style={{width: '18rem'}}>
+                <img src={Img5} className="card-img-top" alt="listmaker" height="200px" width="200px"/>
+                <div className="card-body">
+                    <h5 className="card-title">Workday Scheduler</h5>
+                    <p className="card-text">A listmaker that marks passed hours in real time.</p>
                 </div>
-                <ul class="list-group list-group-flush">
+                <ul className="list-group list-group-flush">
 
 
                 </ul>
-                <div class="card-body">
-                    <a href="https://ted-alexander.github.io/Schedule/" class="card-link">Link to the app</a>
-                    <a href="https://github.com/ted-alexander/Schedule" class="card-link">GitHub Link</a>
+                <div className="card-body">
+                    <a href="https://ted-alexander.github.io/Schedule/" className="card-link">Link to the app</a>
+                    <a href="https://github.com/ted-alexander/Schedule" className="card-link">GitHub Link</a>
                 </div>
             </div>
         </div>
         <br/>
-        <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/comingsoon2.jpg" class="card-img-top" alt="Horiseon Refactor" height="200px"
+        <div className="col-sm-4">
+            <div className="card" style={{width: '18rem'}}>
+                <img src={Img6} className="card-img-top" alt="Weather Dashboard" height="200px"
                     width="400px"/>
-                <div class="card-body">
-                    <h5 class="card-title">Weather Dashboard</h5>
-                    <p class="card-text">Currently in development</p>
+                <div className="card-body">
+                    <h5 className="card-title">Weather Dashboard</h5>
+                    <p className="card-text">Gives the current weather in a searched city</p>
                 </div>
-                {/* <ul class="list-group list-group-flush"> */}
+                {/* <ul className="list-group list-group-flush"> */}
 
-                    <div class="card-body">
-                        <a href="https://ted-alexander.github.io/weather-dashboard/" class="card-link">TBA</a>
-
-
+                    <div className="card-body">
+                        <a href="https://ted-alexander.github.io/weather-dashboard/" className="card-link">Link to the app</a>
+                        <a href="https://github.com/ted-alexander/weather-dashboard" className="card-link">GitHub Link</a>
                     </div>
             </div>
         </div>
@@ -146,8 +149,8 @@ export default function Projects() {
 
     <br/>
 
-    <div class="work-placeholder card col-sm-4">
-        <img src="./assets/comingsoon4.jpg" alt="check back later!" height="100px" width="200px"/>
+    <div className="work-placeholder card col-sm-4">
+        <img src={Img7} alt="check back later!" height="100px" width="200px"/>
         <p>Check back later to see more projects!</p>
     </div>
 
