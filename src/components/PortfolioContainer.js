@@ -13,13 +13,13 @@ export default function PortfolioContainer() {
     // if (currentPage === 'Home') {
     //   return <Home />;
     // }
-    if (currentPage === 'AboutMe') {
-      return <AboutMe />;
+    if (currentPage === 'ContactMe') {
+      return <ContactMe />;
     }
     if (currentPage === 'Projects') {
       return <Projects />;
     }
-    else return <ContactMe />;
+    return <AboutMe />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
