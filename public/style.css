@@ -5,7 +5,12 @@
 }
 
 body {
-    background-color: hsl(140, 66%, 32%);
+    background-color: #668d63;
+    
+}
+
+.top6 {
+    background-color: #87b483;
 }
 
 .header {
@@ -59,7 +64,7 @@ body {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: hsl(140, 66%, 32%);
+    background-color: #70c069;
     color: #ffffff;
     display:block;
 
@@ -69,7 +74,7 @@ body {
     margin-bottom: 20px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: hsl(140, 66%, 32%);
+    background-color: #668d63;
     color:black;
     display: block;
     
