@@ -12,7 +12,7 @@ body {
     padding-top: 15px;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #9bbed0;
+    background-color: #70c069;
     color: #ffffff;
 }
 
@@ -69,7 +69,7 @@ body {
     margin-bottom: 20px;
     padding: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: hsl(216, 31%, 52%);
+    background-color: hsl(140, 66%, 32%);
     color:black;
     display: block;
     
@@ -93,7 +93,7 @@ body {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #9bbed0;
+    background-color: #70c069;
     color: #ffffff;
     display: inline-block;
 
