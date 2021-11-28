@@ -87,7 +87,7 @@ export default function Projects() {
 
 
     <br/>
-    <div className="row">
+    {/* <div className="row">
         <br/>
         <div className="col-sm-4">
             <div className="card" style={{width: '18rem'}}>
@@ -107,7 +107,7 @@ export default function Projects() {
                 </div>
             </div>
         </div>
-        {/* <div className="col-sm-4">
+        <div className="col-sm-4">
             <div className="card" style={{width: '18rem'}}>
                 <img src={Img4} className="card-img-top" alt="password generator"
                     height="200px" width="400px"/>
@@ -126,7 +126,7 @@ export default function Projects() {
 
                 </div>
             </div>
-        </div> */}
+        </div>
 
 
 
@@ -158,11 +158,11 @@ export default function Projects() {
                 </div>
                 {/* <ul className="list-group list-group-flush"> */}
 
-                    <div className="card-body">
+                    {/* <div className="card-body">
                         <a href="https://ted-alexander.github.io/weather-dashboard/" className="card-link">Link to the app</a>
                         <a href="https://github.com/ted-alexander/weather-dashboard" className="card-link">GitHub Link</a>
-                    </div>
-            </div>
+                    </div> */}
+            {/* </div>
         </div>
     </div>
 
@@ -172,7 +172,7 @@ export default function Projects() {
     <div className="work-placeholder card col-sm-4">
         <img src={Img7} alt="check back later!" height="100px" width="200px"/>
         <p>Check back later to see more projects!</p>
-    </div>
+    </div>  */}
 
 </section>
 
