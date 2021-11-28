@@ -2,10 +2,11 @@ import React from 'react';
 import Img1 from '../../images/shield-logo.png';
 import Img2 from '../../images/calendont.JPG';
 import Img3 from '../../images/globe_flag.png';
-import Img4 from '../../images/03.png';
+// import Img4 from '../../images/03.png';
 import Img5 from '../../images/workday.PNG';
 import Img6 from '../../images/weather.png';
 import Img7 from '../../images/2.jpg';
+import Img8 from '../../images/reader.PNG';
 
 export default function Projects() {
   return (
@@ -40,7 +41,8 @@ export default function Projects() {
                 <img src={Img2} className="card-img-top" alt="CalenDont" height="200px" width="200px"></img>
                 <div className="card-body">
                     <h5 className="card-title">CalenDon't</h5>
-                    <p className="card-text">The Antisocial Social Planner</p>
+                    <p className="card-text">"The Antisocial Social Planner,"
+                    a concept site for an app that allows users to descretely cancel plans</p>
                 </div>
                 <ul className="list-group list-group-flush">
 
@@ -51,6 +53,41 @@ export default function Projects() {
                 </div>
             </div>
         </div>
+        <br/>
+        <div className="col-sm-4">
+            <div className="card" style={{width: '18rem'}}>
+                <img src={Img8} className="card-img-top" alt="flags and globe" height="200px"
+                    width="200px"/>
+                <div className="card-body">
+                    <h5 className="card-title">Reader, Set, Go!</h5>
+                    <p className="card-text">An app for users to keep track of books they've read to compete to reach the highest "ReaderScore"</p>
+                </div>
+                <ul className="list-group list-group-flush">
+
+
+                </ul>
+                <div className="card-body">
+                    <a href="https://pure-dawn-95351.herokuapp.com/" className="card-link">Link to the app</a>
+                    <a href="https://github.com/endlessashley/reader-set-go-clean" className="card-link">GitHub Link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br/>
+    <div className="row">
+
+
+
+
+
+
+    </div>
+
+
+    <br/>
+    <div className="row">
         <br/>
         <div className="col-sm-4">
             <div className="card" style={{width: '18rem'}}>
@@ -70,24 +107,7 @@ export default function Projects() {
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <br/>
-    <div className="row">
-
-
-
-
-
-
-    </div>
-
-
-    <br/>
-    <div className="row">
-        <br/>
-        <div className="col-sm-4">
+        {/* <div className="col-sm-4">
             <div className="card" style={{width: '18rem'}}>
                 <img src={Img4} className="card-img-top" alt="password generator"
                     height="200px" width="400px"/>
@@ -106,7 +126,7 @@ export default function Projects() {
 
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
 
