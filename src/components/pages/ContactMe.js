@@ -53,7 +53,7 @@ function Contact() {
 
 
   return (
-    <div>
+    <div className="row">
       <p></p>
       <form className="form">
         <input
@@ -85,6 +85,7 @@ function Contact() {
 
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
+      
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
