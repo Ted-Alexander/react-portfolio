@@ -3,3 +3,4 @@ a portfolio website to showcase the skillls I've learned in class and the projec
 
 # Deployment
 https://ted-alexander.github.io/react-portfolio/
+https://confident-mclean-7775a0.netlify.app/
