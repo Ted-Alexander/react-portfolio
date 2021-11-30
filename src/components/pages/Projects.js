@@ -1,11 +1,11 @@
 import React from 'react';
-import Img1 from '../../images/shield-logo.png';
+import Img1 from '../../images/shield.PNG';
 import Img2 from '../../images/calendont.JPG';
-import Img3 from '../../images/globe_flag.png';
+// import Img3 from '../../images/globe_flag.png';
 // import Img4 from '../../images/03.png';
-import Img5 from '../../images/workday.PNG';
-import Img6 from '../../images/weather.png';
-import Img7 from '../../images/2.jpg';
+// import Img5 from '../../images/workday.PNG';
+// import Img6 from '../../images/weather.png';
+// import Img7 from '../../images/2.jpg';
 import Img8 from '../../images/reader.PNG';
 
 export default function Projects() {
@@ -29,9 +29,9 @@ export default function Projects() {
 
                 </ul>
                 <div className="card-body">
-                    <a href="https://endlessashley.github.io/Shield-ID/" className="card-link">Link to the app</a>
-                    <a href="https://github.com/endlessashley/Shield-ID" className="card-link">GitHub Link</a>
-                    <a href="https://cors-anywhere.herokuapp.com/corsdemo" className="card-link">CORS Anywhere</a>
+                    <a href="https://endlessashley.github.io/Shield-ID/" className="btn btn-success">Link to the app</a>
+                    <a href="https://github.com/endlessashley/Shield-ID" className="btn btn-dark">GitHub Link</a>
+                    <a href="https://cors-anywhere.herokuapp.com/corsdemo" className="btn btn-warning">CORS Anywhere</a>
                 </div>
             </div>
         </div>
@@ -48,8 +48,8 @@ export default function Projects() {
 
                 </ul>
                 <div className="card-body">
-                    <a href="https://pacific-badlands-48977.herokuapp.com/" className="card-link">Link to the app</a>
-                    <a href="https://github.com/rjr2/CalenDont" className="card-link">GitHub Link</a>
+                    <a href="https://pacific-badlands-48977.herokuapp.com/" className="btn btn-success">Link to the app</a>
+                    <a href="https://github.com/rjr2/CalenDont" className="btn btn-dark">GitHub Link</a>
                 </div>
             </div>
         </div>
@@ -67,8 +67,8 @@ export default function Projects() {
 
                 </ul>
                 <div className="card-body">
-                    <a href="https://pure-dawn-95351.herokuapp.com/" className="card-link">Link to the app</a>
-                    <a href="https://github.com/endlessashley/reader-set-go-clean" className="card-link">GitHub Link</a>
+                    <a href="https://pure-dawn-95351.herokuapp.com/" className="btn btn-success">Link to the app</a>
+                    <a href="https://github.com/endlessashley/reader-set-go-clean" className="btn btn-dark">GitHub Link</a>
                 </div>
             </div>
         </div>
