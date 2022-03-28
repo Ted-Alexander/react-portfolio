@@ -3,3 +3,8 @@ a portfolio website to showcase the skillls I've learned in class and the projec
 
 # Deployment
 https://confident-mclean-7775a0.netlify.app/
+
+[add image here]
+
+# Technologies used
+CSS, HTML, Javascript, React, Netlify
